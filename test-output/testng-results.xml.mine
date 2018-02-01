@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="768840" started-at="2017-06-01T07:14:38Z" finished-at="2017-06-01T07:27:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="768840" started-at="2017-06-01T07:14:38Z" finished-at="2017-06-01T07:27:26Z">
+      <class name="cases.accountmanager.AccountList">
+        <test-method status="PASS" signature="beforeTestRun(java.lang.String)[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="beforeTestRun" is-config="true" duration-ms="16" started-at="2017-06-01T15:14:38Z" finished-at="2017-06-01T15:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestRun -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="169" started-at="2017-06-01T15:14:38Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-01T15:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-06-01T15:14:38Z" finished-at="2017-06-01T15:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-06-01T15:14:38Z" finished-at="2017-06-01T15:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.accountmanager.AccountList.getAccountList(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAccountList(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="getAccountList" duration-ms="768630" started-at="2017-06-01T15:14:38Z" data-provider="dataProvider" finished-at="2017-06-01T15:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/api/sys/users/_page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[getAccountList]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{code=S200}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{pagepageNo=1, pageSize=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountList -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-01T15:27:26Z" finished-at="2017-06-01T15:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.accountmanager.AccountList.getAccountList(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cases.accountmanager.AccountList@1355b88b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-01T15:27:26Z" finished-at="2017-06-01T15:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cases.accountmanager.AccountList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

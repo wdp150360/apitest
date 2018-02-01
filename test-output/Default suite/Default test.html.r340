@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 16 14:06:35 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4826 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /api/cfg/dictionaries/USER_STATUS, 查询用户状态, {}, {dataName=正常, dataCode=ENABLED}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /api/cfg/dictionaries/USER_STATUS, 查询用户状态, {}, {dataName=禁用, dataCode=DISABLED}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /api/sys/users/auth_user, 查询用户信息, {}, {realName=自动化测试, deptName=餐饮云平台, mobilePhone=15921507060, userNo=121380, deptId=7829, id=52b12a143adb11e7a6d000163e127cfc, position=测试工程师, email=zidonghuaceshi@niwodai.net, username=zidonghuaceshi}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/permissions/button, 获取按钮列表, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/permissions/menu, 获取用户所有的菜单列表, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/permissions/menu/_tree, 获取菜单列表（树结构）, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/roles, 获取所有角色(列表), {}, {name=系统管理员, id=2}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/permissions/:roleId/_tree, 获取指定角色的权限, {}, {code=ACCOUNT, isReferenced=false, name=账户管理}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /cfg/areas/_tree, 获取业务范围, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/users/info/52b12a143adb11e7a6d000163e127cfc, 获取用户信息, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+<tr>
+<td title='cases.apiCfgDictionaries.getcfgDictionoryCompany()'><b>getcfgDictionoryCompany</b><br>Test class: cases.apiCfgDictionaries<br>Parameters: /sys/departments, 获取部门列表, {}, {}</td>
+<td></td>
+<td>0</td>
+<td>cases.apiCfgDictionaries@614ddd49</td></tr>
+</table><p>
+</body>
+</html>

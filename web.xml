@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fanba-apicase" verbose="10">
+  <test name="fanba-apicase">
+        <packages>
+            <package name="cases"/>
+        </packages>
+    </test>
+</suite>

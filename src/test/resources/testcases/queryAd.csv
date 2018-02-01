@@ -1,0 +1,2 @@
+path,caseName,keyValue
+/service/ad/queryAd?appVer=2.4.0&data=%7B%22type%22%3A%2214%22%7D&type=2,查询广告信息-case1,"[code"":""200""]"

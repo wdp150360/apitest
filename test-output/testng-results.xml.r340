@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4826" started-at="2017-10-16T06:06:35Z" finished-at="2017-10-16T06:06:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4826" started-at="2017-10-16T06:06:35Z" finished-at="2017-10-16T06:06:39Z">
+      <class name="cases.apiCfgDictionaries">
+        <test-method status="PASS" signature="beforeTestRun(java.lang.String)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="beforeTestRun" is-config="true" duration-ms="10" started-at="2017-10-16T14:06:35Z" finished-at="2017-10-16T14:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestRun -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:35Z" finished-at="2017-10-16T14:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="124" started-at="2017-10-16T14:06:35Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-16T14:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="544" started-at="2017-10-16T14:06:35Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/api/cfg/dictionaries/USER_STATUS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[查询用户状态]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{dataName=正常, dataCode=ENABLED}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:35Z" finished-at="2017-10-16T14:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:35Z" finished-at="2017-10-16T14:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:35Z" finished-at="2017-10-16T14:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="337" started-at="2017-10-16T14:06:35Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/api/cfg/dictionaries/USER_STATUS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[查询用户状态]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{dataName=禁用, dataCode=DISABLED}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-16T14:06:36Z" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:36Z" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="332" started-at="2017-10-16T14:06:36Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/api/sys/users/auth_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[查询用户信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{realName=自动化测试, deptName=餐饮云平台, mobilePhone=15921507060, userNo=121380, deptId=7829, id=52b12a143adb11e7a6d000163e127cfc, position=测试工程师, email=zidonghuaceshi@niwodai.net, username=zidonghuaceshi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="567" started-at="2017-10-16T14:06:36Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/permissions/button]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取按钮列表]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:36Z" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:36Z" finished-at="2017-10-16T14:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="315" started-at="2017-10-16T14:06:37Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/permissions/menu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取用户所有的菜单列表]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="477" started-at="2017-10-16T14:06:37Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/permissions/menu/_tree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取菜单列表（树结构）]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="364" started-at="2017-10-16T14:06:37Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/roles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取所有角色(列表)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{name=系统管理员, id=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:37Z" finished-at="2017-10-16T14:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:38Z" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:38Z" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="554" started-at="2017-10-16T14:06:38Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/permissions/:roleId/_tree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取指定角色的权限]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{code=ACCOUNT, isReferenced=false, name=账户管理}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:38Z" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:38Z" finished-at="2017-10-16T14:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="327" started-at="2017-10-16T14:06:38Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/cfg/areas/_tree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取业务范围]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="510" started-at="2017-10-16T14:06:39Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/users/info/52b12a143adb11e7a6d000163e127cfc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取用户信息]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="getcfgDictionoryCompany(java.lang.String, java.lang.String, java.util.Map, java.util.Map)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="getcfgDictionoryCompany" duration-ms="324" started-at="2017-10-16T14:06:39Z" data-provider="dataProvider" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/sys/departments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[获取部门列表]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcfgDictionoryCompany -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cases.apiCfgDictionaries.getcfgDictionoryCompany(java.lang.String,java.lang.String,java.util.Map,java.util.Map) throws com.github.kevinsawicki.http.HttpRequest$HttpRequestException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cases.apiCfgDictionaries@614ddd49]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-10-16T14:06:39Z" finished-at="2017-10-16T14:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cases.apiCfgDictionaries -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
